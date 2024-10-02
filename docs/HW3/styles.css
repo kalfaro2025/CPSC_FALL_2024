@@ -66,8 +66,8 @@ ol {
     text-align: left;
 }
 #lego {
-    width: 400px;
-    height: 225px;
+    width: 200px;
+    height: 112px;
   
 }
 #Core_Skills {
@@ -92,4 +92,6 @@ nav {
 }
 #headshot {
     border: 5px solid white;
+    width: 275px;
+    height: 285px;
 }
