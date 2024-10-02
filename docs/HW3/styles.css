@@ -1,0 +1,95 @@
+#grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    font-size: 20px;
+    background-color: palegreen;
+    border: 3px solid black; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#navArea {
+    grid-column: 1 / 6;
+    text-align: center;
+    background-color: gray
+}
+
+#profile {
+    grid-column: 1 / 3;
+    text-align: center;
+    background-color: palegreen;
+}
+
+#mainArea {
+    grid-column: 3 / 6;
+    text-align: center;
+    background-color: rgb(102, 185, 212);
+}
+
+#name {
+    font-size: 35px;
+}
+#bio {
+    font-size: 15px;
+    margin: 15px;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#Education {
+    font-size: 12px;
+}
+
+table, th, td, tr {
+    border: 2px solid white;
+    margin: auto;
+}
+tr:nth-child(even) {
+    background-color: rgb(118, 213, 234)
+}
+li {
+    font-size: 12px;
+    text-align: left;
+    margin-right: 5px;
+}
+#Qualifications {
+    font-size: 12px;
+}
+table {
+    width: 80%;
+    height: 80%;
+}
+#Hobbies {
+    font-size: 12px;
+}
+ol {
+    text-align: left;
+}
+#lego {
+    width: 400px;
+    height: 225px;
+  
+}
+#Core_Skills {
+    font-size: 15px;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 15px;
+}
+#Core_Skills_List {
+    text-align: left;
+}
+#CareerSummary {
+    font-size: 15px;
+}
+#Hobbies_List {
+    text-align: left;
+}
+nav {
+    margin: 10px;;
+}
+#headshot {
+    border: 5px solid white;
+}

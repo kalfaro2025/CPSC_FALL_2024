@@ -1,0 +1,184 @@
+<!--
+    *Kylie Alfaro
+    CPSC 333 Web Development
+    Homework 3 (CSS)
+    Date Modified: 10/1/24
+    Inline Style(s) Used on line(s): 37, 129, and 172
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 3 CSS</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type ="image/x-icon" href="favicon.png">
+</head>
+<body>
+    <div id="grid-container">
+        <div id="navArea">
+            <h1>Kylie Alfaro's CV</h1>
+            <nav>
+                    <a href="#Introduction">Introduction</a>
+                    <a href="#Core_Skills">Core Skills</a>
+                    <a href="#CareerSummary">Career Summary</a>
+                    <a href="#Qualifications">Qualifications</a>
+                    <a href="#Education">Education</a>
+                    <a href="#Hobbies">Hobbies</a>
+            </nav>
+        </div>
+        <div id="profile">
+            <section id="Introduction">
+                    <h2>Introduction:</h2>
+                    <img src="headshot.jpg" alt="headshot" id="headshot">
+                    <p id="name">Kylie Alfaro</p>
+                    <!-- Inline style -->
+                    <!-- I think I messed with this section in way that makes it so that the p tag is too small.-->
+                    <p style="font-size: 15px">Senior Biochemistry and Computer Science Student</p>
+                    <p id="bio">
+                        I am a Senior studying Biochemistry and Computer Science at Gonzaga Univesity. 
+                        In my day to day, I work as a teaching assistant in multiple different academic 
+                        departments, while taking a variety of courses. I am also heavily involved 
+                        in Undergraduate Research. My current project includes studying phosphorus 
+                        asscociation with sediment in freshwater systems. Phosphorus, in excess, 
+                        can lead to eutrophication which lowers water quality. By studying 
+                        phosphorus asscociation, we can better understand where the phosphorus is coming from.
+                    </p>
+                </section>
+                <section id="Core_Skills">
+                    <h2>Core Skills</h2>
+                    <ul id="Core_Skills_List">
+                        <li>Familiar with C++, Excel, Java, TopSpin, PyMol</li>
+                        <li>Thin Layer, Gas, and Liquid Chromatography</li>
+                        <li>Nuclear Magnetic Resonance Spectroscopy</li>
+                        <li>UV-Vis Spectroscopy</li>
+                        <li>Liquid-Liquid Extraction</li>
+                        <li>Single, and multiple-layer recrystallization</li>
+                    </ul>
+                </section>
+            </div>
+            <div id="mainArea">
+                <section id="CareerSummary1">
+                    <h2>Career Summary</h2>
+                    <table id="CareerSummary">
+                        <tr>
+                            <th>Company</th>
+                            <th>Position</th>
+                            <th>Start Date</th>
+                            <th>End Date</th>
+                            <th>Description</th>
+                        </tr>
+                        <tr>
+                            <td>Department of Chemistry and Biochemistry, Gonzaga University</td>
+                            <td>Teaching Assistant</td>
+                            <td>Fall 2023</td>
+                            <td>Present</td>
+                            <td>
+                                <ul>
+                                <li>Working in the laboratory for 7 hours a week</li>
+                                <li>Meeting with Principal Investigator weekly to discuss project progress</li>
+                                <li>Designing and testing experimental procedures for introductory laboratory courses</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Residence Hall Association, Gonzaga University</td>
+                            <td>Block Council President</td>
+                            <td>Fall 2023</td>
+                            <td>Spring 2024</td>
+                            <td>
+                                <ul>
+                                    <li>Planning and attending weekly meetings with other members of the Block Council </li>
+                                    <li>Attending weekly meetings with the advisor</li>
+                                    <li>Reporting Block Council updates at the weekly general assembly</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>TechKnowHow, Aurora School</td>
+                            <td>Assistant Instructor</td>
+                            <td>Summer 2023</td>
+                            <td>Summer 2023</td>
+                            <td>
+                            <ul>
+                                <li>Teaching students basic computer hardware skills</li>
+                                <li>Helping students understand how different Lego pieces fit together</li>
+                                <li>Correcting student behavior</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pediatric ER, Sacred Heart Hospital</td>
+                            <td>Volunteer</td>
+                            <td>Fall 2021</td>
+                            <td>Spring 2022</td>
+                            <td>
+                                <ul>
+                                    <li>Cleaning and preparing rooms for patient examinations</li>
+                                    <li>Assisting nurses with patient hospitality</li>
+                                    <li>Refilling commonly used equipment for nurses and doctors</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </table>
+                </section>
+                <section id="Education">
+                     <!-- Inline style -->
+                     <!-- I think I messed with this section in way that makes it so that the h2 header is too small.-->
+                     <!-- It was easier to resize it with an inline style-->
+                    <h2 style="font-size: 30px">Education</h2>
+                <table>
+                    <tr>
+                        <th>Institution</th>
+                        <th>Degree</th>
+                        <th>Start Date</th>
+                        <th>End Date</th>
+                    </tr> 
+                    <tr>
+                        <td>Gonzaga University</td>
+                        <td>Bachelors of  Science in Biochemistry with a Minor in Computer Science</td>   
+                        <td>August 2021</td>
+                        <td>May 2025</td>
+                    </tr>
+                    <tr>
+                        <td>Acalanes High School</td>
+                        <td>High School Dimploma</td>
+                        <td>August 2017</td>
+                        <td>May 2021</td>
+                </table>
+                </section>
+                <section id="Qualifications">
+                     <!-- Inline style -->
+                    <h2 style="font-size: 30px">Qualifications</h2>
+                       <table>
+                           <tr>
+                               <th>Qualification</th>
+                               <th>Date Recieved</th>
+                            </tr>
+                            <tr>
+                                <td>CPR Certification</td>
+                                <td>August 2021</td>
+                            </tr>
+                            <tr>
+                                <td>Motorcycle Drivers License</td>
+                                <td>August 2024</td>
+                            </tr>
+                       </table>
+                </section>
+                <section id="Hobbies">
+                     <!-- Inline style -->
+                     <!-- I think I messed with this section in way that makes it so that the h2 header is too small.-->
+                     <!-- It was easier to resize it with an inline style-->
+                    <h2 style="font-size: 30px">Interests & Hobbies</h2>
+                    <ol id="Hobbies_List">
+                        <li>Building Legos 
+                            <br><a href = "https://www.lego.com/en-us"><img src = "lego_car.webp" alt = "Lego Company Website" id="lego"></a>
+                        </li>
+                        <li>Learning new Coding Langauges</li>
+                        <li>Riding my Bike</li>
+                    </ol>
+                </section>
+        </div>
+    </div>
+</body>
+</html>
