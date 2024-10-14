@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Participation 10-11</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function() {
+            let $conatiner = jQuery(document.getElementById("container"));
+
+            let $containerToo = $("#container");
+
+            //select DOM elements
+            //Select our ol and modify
+            $("ol").addClass("ordered-list");
+            //appending raw html
+            $(".ordered-list").append("<li>jQuery Introduction</li>");
+            //appending list item, then modifying text of the list item
+            $(".ordered-list").append($("<li>").text("Selectors"));
+
+            let $filteredContent = $("li:contains('jQuery')");
+            console.log($filteredContent);
+
+            $("#container").append($("<button>").text("Click Me").attr("id", "event-btn"));
+
+            $("div").css("border", "2px double purple")
+
+            $("div").css({
+                padding: "10px",
+                borderRadius: "10px",
+                marginTop: "10px",
+                "background-color": "rgb(235, 97, 35)",
+        });
+
+        });
+    </script>
+</head>
+<body>
+    <h1>Participation 10-11: JQuery</h1>
+    <div id="container"></div>
+        <h1>9. JQuery</h1>
+        <ol>
+
+        </ol>
+</body>
+</html>
