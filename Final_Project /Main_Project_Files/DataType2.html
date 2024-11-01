@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.3.0/dist/chart.umd.min.js"></script>
+    <script type="text/javascript" src="chart.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <title>Hangman Creek</title>
+</head>
+<body>
+    <header class="header">
+        <h1>Hangman Creek</h1>
+        <ul>
+            <li class="navigation"><a href="index.html">Home</a></li>
+            <li class="navigation"><a href="Sampling.html">Water Sampling</a></li>
+            <li class="navigation"><a href="DataType1.html">Little Spokane River</a></li>
+            <li class="navigation"><a href="DataType2.html">Hangman Creek</a></li>
+            <li class="navigation"><a href="SamplingMap.html">Sampling Site Map</a></li>
+        </ul>
+    </header>
+    <div id="Graph">
+        <h2>Temperature Versus Time</h2>
+        <canvas id='myChart' style="width: auto; height: auto;"></canvas>
+    </div>
+    <div id="Explanation">
+        <p>This graph shows the temperature of the Hangman Creek at different times of the year.</p>
+    </div>
+    <div id="download">
+        <a href="LittleSpokaneRiver.csv" download="LittleSpokaneRiver.csv">Download CSV</a>
+    </div>
+</body>
+</html>

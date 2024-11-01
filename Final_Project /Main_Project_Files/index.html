@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.min.js"></script>
+    <script src="form.js"></script>
+    <title>Mathews's Research Group Landing Page</title>
+</head>
+<body>
+    <header class="header">
+        <h1>Mathews Research Lab</h1>
+        <ul>
+            <li class="navigation"><a href="index.html">Home</a></li>
+            <li class="navigation"><a href="Sampling.html">Water Sampling</a></li>
+            <li class="navigation"><a href="DataType1.html">Little Spokane River</a></li>
+            <li class="navigation"><a href="DataType2.html">Hangman Creek</a></li>
+            <li class="navigation"><a href="SamplingMap.html">Sampling Site Map</a></li>
+        </ul>
+    </header>
+    <div id="Pictures">
+        <h2>Welcome to the Mathews Lab! </h2>
+        <img height="425" width="300" src="Lab_Photos/IMG_3939.HEIC" alt="Little Spokane River">
+        <img height="300" width="400" src="Lab_Photos/IMG_4024.JPG" alt="Picture of Mathews Lab Memebers">
+        <img height="300" width="400" src="Lab_Photos/IMG_4025.JPG" alt="Little Spokane River">
+        <img height="400" width="300" src="Lab_Photos/IMG_4040.JPG" alt="Member of Mathews Research Lab Sampling">
+        <img height="300" width="400" src="Lab_Photos/IMG_4177.JPG" alt="Hangman Creek Sampling Trip in Fall 2024">
+        <img height="400" width="300" src="Lab_Photos/IMG_4180.JPG" alt="Picture of Mathews Lab Memeber">
+    </div>
+    <div id="About">
+        <h2>Who are we?</h2>
+        <p id="description"">
+            We are just nerds who love water and soil. The Mathews Lab is located at the heart of Spokane, WA at Gonzaga University. 
+            Gonzaga University is a private undergraduate insitution aimed at providing quality education. 
+            We are dedicated to understanding the chemistry of Spokane River water and its major tributaries.
+            As undergraduates students, many of us come from different backgrounds and interests; however, we 
+            share a common appreciation for the complexity of freshwater systems. Our Principal Investigator, Dr. Madeleine Mathews,
+            originally came to Gonzaga during the 2023-2024 school year. Dr. Mathews recieved her PhD from the University of Wisconsin in Madison
+            for Environemental Chemistry. She then went on to complete her Post-Doctoral Research in France, studying radionuclides. 
+            Upon coming to Gonzaga, Dr. Mathews became interested in the Spokane Watershed. During the 2024 Summer, Dr. Mathews has her first
+            official group of research students who all worked on different projects pertaining to the Spokane Watershed. Currently, the 
+            Mathews Lab is monitoring the Spokane River's major tributaries, Little Spokane River and Hangman Creek.
+        </p>
+    </div>
+    <div id="Contact">
+        <div id="Question">
+            <p>Have a question? Let us know!</p>
+        </div>
+        <div id="Form">
+            <form ng-submit="submitForm(formData)" action:"formresults.html" method="get">
+                Full Name:
+                <input type="text" ng-model="formData.fname" name="fname" placeholder="Enter your Full Name">
+                Email:
+                <input type="email" ng-model="formData.email" name="email" placeholder="Enter your Email"><br><br>
+                Message:<br>
+                <textarea ng-model="formData.message" name="message" placeholder="Enter your Message"></textarea><br><br>
+                <input type="submit" value="Submit"> 
+            </form>
+        </div>
+    </div>
+</body>
+</html>

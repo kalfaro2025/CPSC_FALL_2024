@@ -1,0 +1,222 @@
+ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0; 
+    width: 100%;
+    justify-content: space-around;
+    text-align: center;
+}
+li {
+    margin-right: 10px;
+    text-align: center;
+}
+.header {
+    display: flexbox;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(255, 242, 230);
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+body {
+    background-color: rgb(101, 151, 101);
+    font-family: palatino;
+}
+#map {
+    text-align: center;
+}
+
+#map iframe {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.navigation {
+    font-weight: bold;
+}
+
+#Contact {
+    width: auto;
+    color: black;
+    margin: 10px;
+    position: relative;
+    top: auto;
+}
+
+#Form {
+    text-align: center;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    padding: 10px;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: beige;
+    height: auto;;
+}
+
+#Form input {
+    margin: 25px;
+    width: 150px;
+    height: 20px;
+    border-width: 5px;
+    text-align: center;
+}
+
+#Form textarea {
+    margin: 5px;
+    width: 300px;
+    height: 50px;
+    border-width: 5px;
+    text-align: center;
+}
+
+#Form input[type="submit"] {
+    margin: 5px;
+    width: 150px;
+    height: 30px;
+    border-width: 5px;
+    text-align: center;
+}
+
+#Question {
+    font-size: 20px;
+    text-align: center;
+
+}
+
+#Pictures {
+    display: flexbox;
+    text-align: center;
+    width: 100%;
+}
+
+#Pictures img {
+    padding: 25px;
+}
+
+#About h2 {
+    text-align: center;
+}
+
+#Graph {
+    text-align: center;
+    border-width: 5px;
+    border-style: solid;
+    padding: 25px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    height: auto;
+    background-color: whitesmoke;
+}
+
+#Explanation {
+    text-align: center;
+    padding: 25px;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: auto;
+}
+
+#Why {
+    padding: 25px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    height: auto;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    background-color: honeydew;
+}
+
+#Sampling101 {
+    text-align: center;
+    padding: 25px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    height: auto;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    background-color: honeydew;
+}
+
+#Signup {
+    text-align: center;
+    padding: 25px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    height: auto;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    background-color: honeydew;
+}
+
+#Calendar {
+    text-align: center;
+    padding: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    height: auto;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    background-color: honeydew;
+}
+
+#calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: 150px 150px 150px 150px 150px 150px 150px;
+    gap: 10px;
+    padding: 10px;
+    background-color: honeydew;
+    text-align: center;
+    height: 790px;
+    width: auto;
+}
+
+#calendar a {
+    border: 5px solid black;
+    color: black;
+    
+}
+
+#description {
+    text-align: center;
+    padding: 25px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    height: auto;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    background-color: honeydew;
+}
+
+#Introduction {
+    text-align: center;
+    padding: 25px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    height: auto;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    background-color: honeydew;
+}
+
+#download {
+    text-align: center;
+}
