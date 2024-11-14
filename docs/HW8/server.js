@@ -16,10 +16,6 @@ app.listen(PORT, () => {
     console.log(`listening on port ${PORT}`);
 });
 
-app.get("/", (req, res) => {
-
-    res.render("index.ejs");
-});
 
 app.get("/weather", async (req, res) => {
 
