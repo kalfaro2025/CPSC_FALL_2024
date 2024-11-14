@@ -17,7 +17,10 @@ app.listen(PORT, () => {
 });
 
 
-app.get("/weather", async (req, res) => {
+app.get("/weather", (req, res) => {
+    res.header("Access-Control-Allow-Origin", "*");
+    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+    next(); }, async (req, res) => {
 
     const city = req.query.city;
     const state = req.query.state;
